@@ -18,8 +18,8 @@ public class MethodOverloadingDemo {
 			
 			MethodOverloadingDemo mod = new MethodOverloadingDemo();
 			
-			System.out.println("Addtion is: "+mod.addition(5, 10));
-			System.out.println("Addtion is: "+mod.addition(5.5f, 7.7f));
+			System.out.println("Addtion is: "+mod.addition(5, 1));
+			System.out.println("Addtion is: "+mod.addition(2.5f, 3.7f));
 	}
 
 }

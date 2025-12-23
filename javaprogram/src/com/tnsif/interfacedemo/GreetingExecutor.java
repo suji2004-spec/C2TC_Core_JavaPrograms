@@ -6,7 +6,7 @@ public class GreetingExecutor {
 		//lambda expression
 		
 				GreetingDemo gd = () -> {
-					System.out.println("Hello Everyone");
+					System.out.println("Nice to meet you");
 				};
 				
 				gd.greet();
