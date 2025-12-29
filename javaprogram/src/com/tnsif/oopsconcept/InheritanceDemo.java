@@ -62,19 +62,19 @@ class Child1 extends Parent{
 //Hierarical inheritance
 
 class Subject{
-	void allSubject() {
+	void S() {
 		System.out.println("States all subjects");
 	}
 }
 
 class Maths extends Subject{
-	void onlyMath() {
+	void M() {
 		System.out.println("shows only math");
 	}
 }
 
 class Science extends Subject{
-	void onlyScience() {
+	void s() {
 		System.out.println("shows only Science");
 	}
 }
@@ -89,21 +89,21 @@ public class InheritanceDemo {
 				d.showDetails();
 				//multilevel
 				
-				Parent p = new Parent();
-				p.gp();
-				p.p();
-				
+				Child1 c = new Child1();
+				c.gp();
+				c.c();
+				c.p();
 				
 				//hierarchical
 				
-				Maths m = new Maths();
-				m.allSubject();
-				m.onlyMath();
+				Maths M = new Maths();
+				M.S();
+				M.M();
 				
 				
 				Science s = new Science();
-				s.allSubject();
-				s.onlyScience();
+				s.S();
+				s.s();
 				
 
 	}

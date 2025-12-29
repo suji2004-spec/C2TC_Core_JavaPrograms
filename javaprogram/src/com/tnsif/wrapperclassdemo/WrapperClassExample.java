@@ -6,7 +6,7 @@ public class WrapperClassExample {
 
 		//primitive into object --> autoboxing 
 
-		int x = 7;
+		int x = 8;
 		
 		Integer y = Integer.valueOf(x);
 		

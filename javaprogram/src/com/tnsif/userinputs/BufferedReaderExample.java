@@ -11,14 +11,14 @@ public class BufferedReaderExample {
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			
 			
-			System.out.println("Enter Country Name: ");
-			String country = br.readLine();
+			System.out.println("Enter College Name: ");
+			String college = br.readLine();
 			
-			System.out.println("Enter Country Code: ");
+			System.out.println("Enter College Code: ");
 			int code = Integer.parseInt(br.readLine());
 			
-			System.out.println("The country name is: "+ country);
-			System.out.println("The country code is: "+code);
+			System.out.println("The College Name is: "+ college);
+			System.out.println("The College Code is: "+code);
 		}
 
 	}

@@ -11,11 +11,11 @@ public class StaticExample {
 
 		static {
 			
-			count = 15;
+			count = 88;
 			
 			//variable = 20;
 			
-			System.out.println("Showing the static vatiable count: "+count);
+			System.out.println("Showing the static variable count: "+count);
 		}
 		
 		

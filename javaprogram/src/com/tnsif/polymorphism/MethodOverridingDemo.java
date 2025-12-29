@@ -16,8 +16,8 @@ class Lion extends AnimalClass{
 public class MethodOverridingDemo {
 
 	public static void main(String[] args) {
-		AnimalClass ac = new AnimalClass();
-		ac.sound();
+		Lion L= new Lion();
+		L.sound();
 		
 		
 		/*

@@ -1,18 +1,18 @@
 package com.tnsif.nonaccessmodifiers;
 
-final public class FinalExample {
+public class FinalExample {
 	
 	
-	final int x = 100;
+	final int x = 500;
 	
-	final void print() {
+	final void p() {
 		System.out.println("Print the value of x: "+ x);
 	}
 
 	public static void main(String[] args) {
 		
 		FinalExample fe = new FinalExample();
-		fe.print();
+		fe.p();
 		
 		
 		
