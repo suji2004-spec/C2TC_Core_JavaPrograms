@@ -11,7 +11,7 @@ public class FinallyBlock {
 			System.out.println((number % 2 == 0 )? " is Even" : " is Odd");
 			return;
 		} catch (InputMismatchException e) {
-			System.err.println("Invalid input...");
+			System.err.println(e);
 
 		} finally {
 			System.out.println("In Finally....");

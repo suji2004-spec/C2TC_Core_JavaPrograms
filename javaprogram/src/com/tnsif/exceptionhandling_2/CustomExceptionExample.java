@@ -16,11 +16,10 @@ public class CustomExceptionExample {
 
 	public static void main(String[] args) {
 		try {
-            withdraw(1100);
+            withdraw(1900);
         } catch (InvalidBalanceException e) {
             System.out.println(e.getMessage());
         }
-		
 
 	}
 
